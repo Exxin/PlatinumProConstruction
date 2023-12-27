@@ -1,0 +1,56 @@
+.vision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(../images/vision-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 576px;
+    height: 575px;
+}
+
+.vision-box {
+    position: relative;
+}
+
+.vision-box::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: 127px;
+    width: calc(100% - 254px);
+    height: 3px;
+    background: #fff;
+}
+
+.vision-box::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    right: 127px;
+    width: calc(100% - 254px);
+    height: 3px;
+    background: #fff;
+}
+
+.vision-box h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-bottom: 20px;
+}
+
+.vision-box p {
+    color: #FFF;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.92px;
+}

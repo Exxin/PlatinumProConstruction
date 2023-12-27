@@ -1,0 +1,35 @@
+.foot {
+    background-color: #27374D;
+}
+
+.foot-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-list {
+    display: flex;
+    gap: 56px;
+    /* width: 680px; */
+    margin-right: 50px;
+}
+
+.foot-item {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+}
+
+.foot-social {
+    display: flex;
+    gap: 20px;
+}
+
+.foot-icons {
+    fill: #FFF;
+}

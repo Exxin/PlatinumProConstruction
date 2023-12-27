@@ -1,0 +1,114 @@
+.reviews {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(../images/rev-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 1159px;
+    height: 1157px;
+}
+
+.reviews-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviews-box h2 {
+    color: #27374D;
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 210px;
+    padding-bottom: 164px;
+}
+
+/* =========================== Slides============================ */
+
+/* =============================================================================== */
+.carousel-container {
+    position: relative;
+    width: 696px;
+    overflow: hidden;
+    border-radius: 38px;
+}
+
+.carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    border-radius: 38px;
+}
+
+.carousel-item {
+    width: 696px;
+    height: 313px;
+    padding-top: 39px;
+    border-radius: 38px;
+    border: 4px solid #FFF;
+    background-color: #27374D;
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    flex-shrink: 0;
+
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+}
+
+.carousel-item.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.carousel-item p {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+
+    width: 492px;
+    height: 175px;
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.dot {
+    height: 20px;
+    width: 20px;
+    background-color: #B4B4B4;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.active-dot {
+    background-color: #787878;
+}
+
+.carousel-item.hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.carousel-item.prev {
+    z-index: -1;
+}
+
+.carousel-item.next {
+    z-index: -1;
+}

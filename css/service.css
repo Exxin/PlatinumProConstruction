@@ -1,0 +1,155 @@
+.service {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(../images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 1159px;
+    height: 1157px;
+}
+
+.service-box h2 {
+    color: #27374D;
+    font-family: Arial;
+    font-size: 75px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 77px;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 167px 0px 0px 0px;
+}
+
+.service-item p {
+    padding-bottom: 19px;    
+}
+
+/* .service-list {
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 229px;
+} */
+
+.service-list {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 68px;
+    width: 823px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 229px;
+    box-sizing: border-box;
+}
+
+/* Додатковий стиль для другого рядка, щоб обробити два елементи у другому рядку */
+.service-item:nth-child(n + 4) {
+    margin-bottom: 0;
+    
+    /* Відмінити відстань між рядками для елементів у другому рядку */
+}
+
+.service-item.left {
+    margin-left: 148px;
+}
+
+.service-item.right {
+    margin-right: 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-services {
+    color: #27374D;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    padding: 9px 0 5px 0;
+}
+
+.description-services {
+    color: #27374D;
+    text-align: center;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service-list .line {
+    position: relative;
+}
+
+.service-list .line::before {
+    content: "";
+    position: absolute;
+    top: 50px;
+    right: -34px;
+    height: 197px;
+    width: 1px;
+    background-color: #27374D;
+}
+
+.service-list .line:last-child::before {
+    display: none;
+}
+
+/* .s2-1,
+.s2-2 {
+    width: 50%;
+    height: auto;
+} */
+
+.arrow1 {
+    fill: #27374D;
+}
+
+.service-icon {
+    display: flex;
+}
+
+.service-btn-icon {
+    fill: #27374D;
+}
+
+.service-btn {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 38px;
+    background: #27374D;
+    padding: 4px 20px 4px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 7px;
+}

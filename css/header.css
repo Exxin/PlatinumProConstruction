@@ -1,0 +1,97 @@
+.head-box {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(180deg, #FFF 91%, transparent 101%);
+}
+
+.nav-box {
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 235px;
+}
+
+.nav-list li {
+    position: relative;
+    padding-left: 28px;
+    padding-right: 28px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item a {
+    position: relative;
+    display: inline-block;
+}
+/* З'являюча смужка під елементами */
+.nav-item a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -7px;
+    width: calc(100% + 14px);
+    /* width: 0; */
+    height: 1px;
+    /* background: #27374D; */
+    background: #FFF;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-item a:hover::after {
+    width: calc(100% - 14px);
+    left: 7px;
+    background: #27374D;
+}
+
+/* Постійна смужка під елементом */
+.nav-item.main a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+    width: calc(100% - 14px);
+    background: #27374D;
+}
+/* Вертикальні смужки між елементами */
+.nav-list li::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 2px;
+    background-color: #27374D;
+}
+
+.nav-list li:last-child::before {
+    display: none;
+}
+
+.nav-item {
+    color: #000;
+    font-family: Arial;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.38px;
+    white-space: nowrap;
+}
+
+.link-pro {
+    color: #000;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.38px;
+    white-space: nowrap;
+}

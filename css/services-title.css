@@ -1,0 +1,110 @@
+/* =============================Title============================== */
+.title-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(../images/services/bg-title.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 619px;
+    height: 619px;
+}
+
+.section-main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-main-title h1 {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 104px;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ===============================Section list================================= */
+
+.sec-list {
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+    padding-top: 65px;
+    padding-bottom: 100px;
+}
+
+.sec-item:nth-child(odd) {
+    background-color: #27374D;
+    color: #fff;
+    flex-direction: row;
+}
+
+.sec-item:nth-child(even) {
+    background-color: #fff;
+    color: #27374D;
+    flex-direction: row-reverse;
+}
+
+.sec-img {
+    border-radius: 38px;
+}
+
+.sec-item {
+    border-radius: 38px;
+    border: 2px solid #27374D;
+    display: flex;
+    gap: 40px;
+    padding: 47px 72px;
+}
+
+.sec-item h2 {
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.sec-item p {
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0px;
+}
+
+.sec-list:nth-child(odd) .sec-btn {
+    color: #fff;
+}
+
+.sec-item:nth-child(even) .sec-btn {
+    color: #27374D;
+}
+
+.sec-list:nth-child(odd) .arrow1 {
+    fill: #FFF;
+}
+
+.sec-item:nth-child(even) .arrow1 {
+    fill: #27374D;
+}
+
+.sec-btn {
+    /* margin: 0px 0px 0px 334px; */
+    font-family: Arial;
+    font-size: 17.333px;
+    font-weight: 400;
+    line-height: normal;
+    width: 130px;
+}
+
+.sec-desription {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
