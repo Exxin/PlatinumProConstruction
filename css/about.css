@@ -1,0 +1,131 @@
+/* =============================Title============================== */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(../images/about/bg-title.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 619px;
+    height: 619px;
+}
+
+.about-box h1 {
+    color: #FFF;
+    font-family: Arial;
+    font-size: 104px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 246px 0;
+    text-align: center;
+}
+/* ===============================About goal================================= */
+.goal-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 0;
+}
+
+.goal-box p {
+    width: 1312px;
+    height: 123px;
+    color: #28384E;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.two-verse {
+    color: #28384E;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+}
+/* ===============================About list================================= */
+.pillar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(../images/about/pill-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 1296px;
+    /* height: 1293px; */
+    z-index: 1;
+}
+
+.pillar-box {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 132px 0;
+}
+
+.pillar-box h2 {
+    color: #27374D;
+    font-family: Arial;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.pillar-list {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 38px;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.pillar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 330px;
+}
+
+.pillar-item h3 {
+    color: #28384E;
+    text-align: center;
+    font-family: Arial;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pillar-item p {
+    color: #28384E;
+    text-align: center;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: normal;
+}
+/* ===============================Description================================= */
+.desc {
+    background-image: url(../images/about/desc-img.jpg);
+    background-repeat: no-repeat;
+    background-position: 1190px 0px;
+}
+.desc-box p {
+    color: #28384E;
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: normal;
+    width: 656px;
+    padding: 121px 0 217px 0px;
+    margin-left: 106px;
+}

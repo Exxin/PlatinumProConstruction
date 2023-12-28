@@ -8,13 +8,13 @@
 @import url('./reviews.css');
 
 @import url('./services-title.css');
-/* @import url('./'); */
-/* @import url('./'); */
-/* @import url('./'); */
-/* @import url('./'); */
-/* @import url('./'); */
-/* @import url('./'); */
-/* @import url('./'); */
+@import url('./about.css');
+@import url('./servises/services-1.css');
+@import url('./servises/services-2.css');
+@import url('./servises/services-3.css');
+@import url('./servises/services-4.css');
+@import url('./servises/services-5.css');
+@import url('./servises/services-ppm.css');
 
 body {
     font-family: 'Arial', sans-serif;

@@ -65,11 +65,8 @@
     box-sizing: border-box;
 }
 
-/* Додатковий стиль для другого рядка, щоб обробити два елементи у другому рядку */
 .service-item:nth-child(n + 4) {
     margin-bottom: 0;
-    
-    /* Відмінити відстань між рядками для елементів у другому рядку */
 }
 
 .service-item.left {
@@ -128,7 +125,7 @@
 } */
 
 .arrow1 {
-    fill: #27374D;
+    fill: #fff;
 }
 
 .service-icon {

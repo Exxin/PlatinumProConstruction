@@ -1,0 +1,12 @@
+.title-service.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFF;
+    background-image: url(/images/services/s4/title-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 619px;
+    height: 619px;
+}
