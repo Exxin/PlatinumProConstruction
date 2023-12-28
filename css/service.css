@@ -118,12 +118,6 @@
     display: none;
 }
 
-/* .s2-1,
-.s2-2 {
-    width: 50%;
-    height: auto;
-} */
-
 .arrow1 {
     fill: #fff;
 }
@@ -133,7 +127,7 @@
 }
 
 .service-btn-icon {
-    fill: #27374D;
+    fill: #fff;
 }
 
 .service-btn {
